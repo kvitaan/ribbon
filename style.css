@@ -37,7 +37,6 @@ nav ul {
     text-transform: capitalize;
     color: #FFFFFF;
     padding: 12px 24px;
-    width: 158px;
     height: 54px;
     cursor: pointer;
 }
@@ -86,6 +85,7 @@ header {
     height: 54px;
     color: #6157AB;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .promo-featured ul {
@@ -93,6 +93,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items:center;
+    padding: 0;
 }
 
 .promo-featured p {
@@ -118,6 +119,130 @@ header {
 
 .promo-img {
     margin-top: 60px;
+}
+
+
+/* article text */
+
+article {
+    background-color: #F5F4F2;
+}
+
+.empower-text h2 {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.675px;
+    color: #333333;
+    padding: 52px 0 0 0 ;
+}
+
+.empower-text button {
+    background: #FFFFFF;
+    border: 1px solid #AAB8BF;
+    border-radius: 6.8px;
+    padding: 15px 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px; 
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    color: #7A858A;
+    text-decoration: none;
+}
+
+.empower-text button:hover {
+    background: #ECEAF8;
+    border: 1px solid #6157AB;
+    border-radius: 6.8px;
+    color: #6157AB;
+}
+
+.empower-text ul {
+    width: 990px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* article first section */
+
+.give-buyers {
+    width: 1080px;
+    margin: 74px auto;
+    padding: 74px;
+    background-color: #fff;
+    border-radius: 19px 19px 0px 0px;
+}
+
+.give-buyers-text h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    color: #574D9C;
+    margin: 0 0 90px 0;
+}
+
+.give-buyers h3 {
+    width: 367px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #363B3D;
+}
+
+.give-buyers p {
+    width: 367px;
+    font-size: 21px;
+    line-height: 30px;
+    color: #636769;
+}
+
+.give-buyers-text {
+    border-top: #C9D3D9 1px solid;
+    padding: 32px 0 0 0;
+}
+
+.give-buyers-container1 {
+    width: 932px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.give-buyers-container2 {
+    width: 932px;
+    margin: 64px auto;
+    padding: 64px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: #C9D3D9 1px solid;
+}
+
+.give-buyers-figure p {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6157AB;
+    width: 190px;
+}
+
+.give-buyers-figure img {
+    width: 70px;
+    height: 70px;
+
+}
+
+.give-buyers-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
